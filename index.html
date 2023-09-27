@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row cabecera">
+            <div class="col">
+                <!-- Inicio del navbar -->
+                <nav class="navbar navbar-expand-sm navbar-dark color-navegador fixed-top">
+                    <div class="container">
+                        <a class="logo fs-2 no-hover" href=""><p class="no-hover">Dana Cordoba</p></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link fs-5 text-nav" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5 text-nav" href="#Skills">Skills</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5 text-nav" href="#Certificados">Certificados</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5 text-nav" href="#Proyectos">Proyectos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5 text-nav" href="#Contacto">Contacto</a>
+                          </li>
+                        </ul>
+                  
+                      </div>
+                    </div>
+                  </nav>
+                <!-- Fin del navbar -->
+            </div>
+        </div>
+
+        <!-- Inicio presentacion -->
+        <div class="row d-flex principal" >
+          <div class="col-12">
+            <div class="card mb-3 presentacion" style="max-width: 900px;">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title tituloP">Dana Cordoba</h3>
+                    <hr>
+                    <p class="puesto">Desarroladora de software y estudiante</p>
+                    <p class="parrafoInfo">Actualmente, me encuentro en etapa de formación en el SENA, donde estoy cursando un tecnólogo en Análisis y Desarrollo de Software. Esta experiencia me ha brindado una sólida base en conceptos clave de programación y desarrollo Web. <br> Adicionalmente, estoy participando en el programa Oracle Next Education, donde estoy adquiriendo valiosos conocimientos en el ámbito del Front-end con las tecnologías JavaScript, HTML, CSS y React. Esta oportunidad me está permitiendo no solo ampliar mis habilidades técnicas, sino también aplicarlas en proyectos prácticos.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/img/foto.jpeg" class="img-fluid rounded-start fotoP " alt="perfil">
+                </div>
+                <span class="d-flex justify-content-center">
+                  <a href="https://github.com/danaFernanda25" target="blank"><img class="redes" src="assets/svg/github.svg" alt="perfilGitHub"></a>
+                  <a href="https://www.linkedin.com/in/fernanda-cordoba-5a61ab1a6/" target="blank"><img class="redes ms-2" src="assets/svg/linkedin.svg" alt="perfilLinkedin"></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Fin presentacion -->
+
+        <!-- Inicio panel skills -->
+        <div class="row  habilidades" id="Skills">
+          <h3 class="text-center mt-5 fs-2">Lenguajes de programación y herramientas que conozco</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card border-0 icon">
+              <img src="assets/svg/html.svg" class="card-img-top imgP p-3" alt="Html">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 icon">
+              <img src="assets/svg/css3.svg" class="card-img-top imgP p-3" alt="CSS">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 icon">
+              <img src="assets/svg/javascript.svg" class="card-img-top imgP p-3" alt="js">
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card border-0 icon">
+              <img src="assets/svg/bootstrap.svg" class="card-img-top imgP p-3" alt="Bootstrap">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 icon">
+              <img src="assets/svg/git.svg" class="card-img-top imgP p-3" alt="React">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 icon">
+              <img src="assets/svg/react.svg" class="card-img-top imgP p-3" alt="...">
+            </div>
+          </div>
+        </div>
+        <!-- Fin panel skills -->
+
+        <!-- Inicio panel certificados -->
+        <div class="row  habilidades" >
+          <h3 class="text-center mt-4 fs-2" id="Certificados">Mis Certificados</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-2 certificados">
+          <div class="col">
+            <div class="card">
+              <img src="assets/img/CERTIFICADO1.jpg" class="card-img-top" alt="CERTIFICADO1">
+              <div class="card-body">
+                <h5 class="card-title">Introducción a HTML y CSS</h5>
+                <a class="text-decoration-none" href="https://app.aluracursos.com/certificate/fernanda-cordoba2504/html5-css3-avanzando-css" target="blank"><button type="button" class="btn btn-info botonC">Ver certificado</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/img/CERTIFICADO2.jpg" class="card-img-top" alt="CERTIFICADO2">
+              <div class="card-body">
+                <h5 class="card-title">Aprendiendo Git y GitHub</h5>
+                <a class="text-decoration-none" href="https://app.aluracursos.com/user/fernanda-cordoba2504/course/git-github-control-version/certificate" target="blank"><button type="button" class="btn btn-info botonC">Ver certificado</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/img/CERTIFICADO3.jpg" class="card-img-top" alt="CERTIFICADO3">
+              <div class="card-body">
+                <h5 class="card-title">Interactuando con JavaScript</h5>
+                <a class="text-decoration-none" href="https://app.aluracursos.com/user/fernanda-cordoba2504/course/javascript-primeros-pasos-lenguaje/certificate" target="blank"><button type="button" class="btn btn-info botonC">Ver certificado</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/img/CERTIFICADO4.jpg" class="card-img-top" alt="CERTIFICADO4">
+              <div class="card-body">
+                <h5 class="card-title">React primeros pasos</h5>
+                <a class="text-decoration-none" href="https://app.aluracursos.com/user/fernanda-cordoba2504/course/react-como-componentes-funcionan/certificate" target="blank"><button type="button" class="btn btn-info botonC">Ver certificado</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Fin panel certificados -->
+
+         <!-- Inicio panel proyectos -->
+         <div class="row habilidades" >
+          <h3 class="text-center mt-5 fs-2" id="Proyectos">Mis proyectos</h3>
+        </div>
+         <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+          <div class="col">
+            <div class="card p-2 fondoCard text-center">
+              <img src="assets/img/kimetsu.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ejemplo de aplicación con Bootstrap5</h5>
+                <p class="card-text parrafoInfo">En este ejercicio, se aplicaron los principios de diseño responsivo y las capacidades de Bootstrap 5 para crear una página web atractiva . Este ejercicio demuestra cómo utilizar eficazmente las clases y componentes de Bootstrap para lograr un diseño web adaptable.</p>
+                <a class="text-decoration-none" href="https://slayer-plum.vercel.app/" target="blank"><button type="button" class="btn btn-info botonC">Visitar sitio</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-2 fondoCard text-center">
+              <img src="assets/img/fruto.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Página de recetas con HTML y CSS</h5>
+                <p class="card-text parrafoInfo">Este proyecto demuestra habilidades en maquetación, diseño y estructuración web. Desde la disposición de secciones hasta la selección de colores y fuentes.</p>
+                <a class="text-decoration-none" href="https://principiante.vercel.app/" target="blank"><button type="button" class="btn btn-info botonC">Visitar sitio</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-2 fondoCard te text-center">
+              <img src="assets/img/grupo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mi primer proyecto con React</h5>
+                <p class="card-text parrafoInfo">Este proyecto es una introducción al mundo de React, una de las bibliotecas JavaScript más populares para construir aplicaciones web modernas. Se ponen en practica los conceptos fundamentales de React  desde la configuración inicial hasta la creación de componentes reutilizables y la manipulación del estado.</p>
+                <a class="text-decoration-none" href="https://org-delta-ashy.vercel.app/" target="blank"><button type="button" class="btn btn-info botonC">Visitar sitio</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Fin panel proyectos -->
+
+         <footer class="footer_section" id="Contacto">
+          <div class="mt-5">
+            <p class="fs-2">Hablemos en: </p>
+            <p class="emailP"><img class="redes" src="assets/svg/email.svg" alt="email"> fernanda.cordoba2504@gmail.com</p>
+          </div>
+          <div class="self">
+            <p>
+              Create by Dana Cordoba
+             <a href="https://github.com/danaFernanda25" target="blank"><img src="assets/svg/github.svg" alt="logo-gitHub"></a> 
+            </p>
+          </div>
+        </footer>
+      </div>
+       
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

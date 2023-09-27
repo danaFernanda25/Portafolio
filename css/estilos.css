@@ -1,0 +1,127 @@
+/* Estilos aplicados al navegador */
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+a.no-hover:hover{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+}
+
+.text-nav{
+    color: white;
+    font-weight: bold;
+}
+
+.color-navegador{
+    background: linear-gradient(270deg, rgb(26, 115, 130), rgb(8, 237, 188));
+}
+/*Fin estilos aplicados al navegador */
+
+/* Estilos aplicados a card-presentacion */
+.principal{
+  margin-top: 20vh;
+  margin-left: 7vw;
+}
+
+.tituloP{
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.puesto{
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.presentacion{
+  display: flex;
+  flex-direction: column;
+  color:black;
+  text-align: center;
+  width:90%;
+  max-width: 850px;
+  box-shadow:0 0 30px rgba(0, 0, 0, 0.5) ;
+}
+
+.redes{
+  height: 5vh;
+  margin-bottom: 5px;
+  width: 5vw;
+}
+
+.fotoP{
+    border-radius: 50%;
+    min-height: 70px;
+}
+
+.parrafoInfo{
+  text-align: justify;
+}
+/*Fin Estilos aplicados a card-presentacion */
+
+
+/* Estilos aplicados a las Skills */
+.imgP{
+  height: 40vh;
+}
+
+.icon{
+  transition: ease-in-out 0.2s;
+}
+.icon:hover{
+  transform: scale(1.1);
+}
+/*Fin Estilos aplicados a las Skills */
+
+/* Estilos aplicados a fuentes cards */
+.botonC{
+  color: white;
+  font-weight: bold;
+}
+
+.fondoCard{
+  background-color: whitesmoke;
+}
+
+.footer_section{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.emailP{
+  font-size: 25px;
+}
+/*Fin Estilos aplicados a fuentes cards */
+
+@media (max-width: 768px){
+  .principal{
+    margin-left: 15px;
+  }
+  .emailP{
+    font-size: 15px;
+  }
+
+  .fotoP{
+    height: 250px;
+  }
+
+  .redes{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1020px){
+  .principal{
+    margin-top: 30vh;
+    margin-left: 25px;
+  }
+}
+
+
