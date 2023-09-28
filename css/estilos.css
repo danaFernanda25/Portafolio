@@ -13,6 +13,10 @@ a.no-hover:hover{
     color: white;
 }
 
+.nav-link:hover{
+  text-decoration: overline;
+}
+
 .text-nav{
     color: white;
     font-weight: bold;
@@ -102,6 +106,7 @@ a.no-hover:hover{
 
 @media (max-width: 768px){
   .principal{
+    margin-top: 15vh;
     margin-left: 15px;
   }
   .emailP{
