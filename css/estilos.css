@@ -28,7 +28,10 @@ a.no-hover:hover{
 /*Fin estilos aplicados al navegador */
 
 /* Estilos aplicados a card-presentacion */
-
+.principal{
+  margin-top: 20vh;
+  margin-left: 7vw;
+}
 
 .tituloP{
   font-family: 'Trebuchet MS', sans-serif;
